@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+/* layout */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+header .btn {
+  border: none;
+  outline: none;
+  padding: 1.5rem 2rem;
+  float: left;
+  font-size: 2.5rem;
+  font-family: 'Press Start 2P';
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+header p {
+  float: right;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 1.5rem 1rem;
+  float: left;
+  font-size: 2.5rem;
+  font-family: 'Press Start 2P';
+}
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: #fff;
+  font-size: 4rem;
+}
+
+header .number {
+  font-size: 7rem;
+  background-color: #fff;
+  display: inline-block;
+  color: rgb(49, 46, 46);
+  padding: 3rem 5rem;
+  position: absolute;
+  top: 80%;
+  width: 30rem;
+  left: 40%;
+  text-align: center;
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+}
+.left input {
+  width: 50%;
+  background-color: transparent;
+  padding: 1rem 3rem;
+  margin: auto;
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+  border: 5px solid white;
+  font-family: 'Press Start 2P';
+}
+.left .check {
+  width: 40%;
+  margin: 3rem auto;
+  cursor: pointer;
+}
+.right {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+}
+.right .message {
+  margin-bottom: 10rem;
+}
+.right .label-score {
+  margin-bottom: 1rem;
+}
+@media (min-width: 1252px) {
+  header .number {
+    font-size: 9rem;
+    background-color: #fff;
+    display: inline-block;
+    color: rgb(49, 46, 46);
+    padding: 3rem 5rem;
+    position: absolute;
+    top: 80%;
+    left: 42%;
+  }
+  header h1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: #fff;
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1878px) {
+  header .number {
+    font-size: 11rem;
+    background-color: #fff;
+    display: inline-block;
+    color: rgb(49, 46, 46);
+    padding: 3rem 5rem;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+  }
+  header h1 {
+    position: absolute;
+    top: 46%;
+    left: 35%;
+    color: #fff;
+    font-size: 4rem;
+  }
+}
